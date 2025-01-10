@@ -18,11 +18,13 @@ Donwload addToCalendarEvent.js and include in your site
 
 See the example below:
 
+    <a id="callForPapers">Click here</a>
+        
     var  callForPapers = new  addToCalendar("#callForPapers", {
-    startTime: "08:00",
-    endTime: "18:00",
-    startDate: "15/03/2025",
-    endDate: "15/05/2025",
-    description: "The Call for Papers is an opportunity to share your work, engage with a global community, and contribute to the advancement of knowledge in your field. Accepted papers will be included in the conference proceedings and have the chance to be presented during the event, fostering discussions and connections among participants.",
-    title:  "Rio'25 - Call for Papers",
-    });
+        startTime: "08:00",
+        endTime: "18:00",
+        startDate: "15/03/2025",
+        endDate: "15/05/2025",
+        description: "The Call for Papers is an opportunity to share your work, engage with a global community, and contribute to the advancement of knowledge in your field. Accepted papers will be included in the conference proceedings and have the chance to be presented during the event, fostering discussions and connections among participants.",
+        title:  "Rio'25 - Call for Papers",
+        });
